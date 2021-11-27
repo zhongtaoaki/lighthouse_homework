@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Create your 没什么卵用的 account!</title>
+</head>
+<body>
+
+<h2>        新用户注册</h2>
+
+<p>填写以下内容后，点击
+<input type="submit" value="提交">按钮来注册<br>
+标记 <b>*</b> 的项目为必填</p>
+
+<form action="/action_page.php">
+  <fieldset>
+    <legend>你的账户信息：</legend>
+    <label for="username">*您的昵称：</label><br>
+    <input type="text" id="username" name="username" value="admin"><br><br>
+    <label for="pwd">*您的密码：</label><br>
+    <input type="password" id="pwd" name="pwd" value="********"><br><br>
+    <label for="pwd">*确认您的密码：</label><br>
+    <input type="password" id="pwd" name="pwd" value="********"><br><br>
+    <label for="email">*邮箱：</label><br>
+    <input type="email" id="email" name="email"><br><br>
+    <label for="name">姓名：</label><br>
+    <input type="text" id="fname" name="name"><br><br>
+    <label for="date">您的出生日期：</label><br>
+    <input type="date" id="date" name="date" max="2021-11-25"><br><br>
+    <label for="myfile">上传头像：</label>
+    <input type="file" id="myfile" name="myfile"><br><br><br>
+    <p>注册即代表您同意《用户协议》<br>
+    	<button type="button" onclick="alert('八百条霸王条款你怕不怕')">点击查看</button></p><br><br>
+    <input type="submit" value="提交注册">
+  </fieldset>
+</form>
+
+<h3>已经有账户了？<a href="hw2_2.html">点此登录</a></h3>
+</body>
+</html>

@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>User register</title>
+
+    <style>
+        .box {
+            width: 480px;
+            height: 590px;
+            padding: 15px;
+            margin-left: 4px;
+            background-color: rgb(255, 255, 255);
+            border-width: 2px;
+            border-color: rgb(244, 244, 244);
+            border-style: solid;
+            box-shadow: 0px 0px 10px 3px #999;
+
+        }
+
+        .inner {
+
+            width: 460px;
+            height: 580px;
+            padding: 6px 6px;
+            margin: 0 auto;
+            font-size: 15px;
+            border-width: 1px;
+            border-color: rgb(244, 244, 244);
+            border-style: solid;
+
+        }
+
+        input[type=text] {
+            width: 450px;
+            height: 25px;
+            font-size: 9px;
+            font-weight: bold;
+            color: rgb(202, 202, 200);
+            padding: 6px;
+            border-width: 0px;
+            background-color: rgb(241, 241, 241);
+
+        }
+
+        input[type=submit] {
+            width: 460px;
+            height: 40px;
+            border-width: 0px;
+            font-size: 2px;
+            font-weight: bold;
+            color: rgb(255, 255, 255);
+            background-color: rgb(94, 183, 97);
+        }
+
+        .one {
+            height: 2px;
+            border-width: 0px;
+            background-color: rgb(241, 241, 241);
+        }
+
+        .two {
+            height: 2px;
+            border-width: 0px;
+            background-color: rgb(241, 241, 241);
+
+        }
+
+        a[href] {
+            color: rgb(30, 144, 255);
+        }
+
+        h1 {
+            font-size: 29px;
+        }
+
+        p {
+            font-size: 14px;
+            font-weight: bold;
+
+        }
+
+        .underbox {
+            width: 468px;
+            height: 60px;
+            margin: 0 auto;
+            background-color: rgb(241, 241, 241);
+            font-size: 14px;
+            font-weight: bold;
+            /* display: flex; 弹性盒子 可以调整布局*/
+            display: flex;
+            align-items: flex-end;
+            justify-content: center;
+
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="box">
+        <div class="inner">
+            <h1>Register</h1>
+            <p>Please fill in this form to create an account.</p>
+            <hr class="one">
+            <br>
+            <form action="" method="post">
+
+                <div><strong>Email</strong></div>
+                <input type="text" name="email" value="Enter Email">
+                <br><br>
+                <div><strong>Password</strong></div>
+                <!-- 当type="password" 输入框显示为黑点 ？ -->
+                <input type="text" name="password" value="Enter Password">
+                <br><br>
+                <div><strong>Repeat Password</strong></div>
+                <input type="text" name="rpassword" value="Repeat Password">
+                <br><br>
+                <hr class="two">
+                <p>By creating an account you agree to our <a href="homework1.html" target="_blank"> Terms &
+                        Privacy</a>.</p>
+                <br>
+                <input type="submit" value="Register">
+
+            </form>
+            <br><br>
+
+            <p class="underbox">Already have an account?<a href="./homework1.html">sign in</a></p>
+        </div>
+    </div>
+
+</body>
+
+</html>

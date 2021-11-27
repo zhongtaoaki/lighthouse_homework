@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My first web</title>
+
+	<style>
+		h1
+		{
+			text-shadow: 3px 3px 2px #3498DB;
+		}
+		#left
+		{
+			background-color: #A3CCE3;
+			border:3px solid #F4D03F;
+			width: 65%;
+			height: 1500px;
+			float: left;
+		}
+
+		#right
+		{
+			
+
+			 background-color: #979A9A;
+			 border:3px solid #EBEDEF;
+			 width: 25%;
+			 height: 1500px;
+			 float: left;
+			
+
+		}
+
+
+
+		    <!--定义栏-->
+		
+	</style>
+</head>
+
+<body>
+
+	<h1 align="center"><i>BIG FISH Finance</i></h1>
+    <hr>
+
+    <nav align="center">
+    	<a href="https://finance.yahoo.co.jp/"> <b>Yahoo 金融 <b></a>
+    	<a href="https://www.nikkei.com/"> <b> 日本经济新闻 <b></a>
+    	<a> <b>关于我们<b> </a>
+    </nav>
+          <!--导航栏-->
+
+	<DIV id="left">
+		<nav align="center">
+     	<img src="imgs/3.jpg">
+
+
+
+     </nav>
+
+
+
+
+
+	</DIV>
+	      <!--左侧栏内容-->
+
+
+	<div id="right">
+		
+		<nav>
+    	<img src="imgs/2.jpg" alt="K line chart" style="width: 350px;height: 150px;">
+    	<br><br>
+    	<li style="color: blue"><b><i>登录</i></b></li><br>
+
+    	<form>
+
+    		<label for="Email">ID</label><br>
+    	    <input type="text" id="Email" name="Email" value="123456@bigfish.com"><br>
+    	    <br>
+
+    	    <label for="password">Password</label><br>
+    	    <input type="text" id="password"name="password" value="bigfish.123"><br>
+    	    <br>
+
+    	    <nav>
+    	    	<input type="submit" name="submit">
+    	    	<input type="reset">
+    	    	<a href="https://id.nikkei.com/lounge/nl/auth/reset/LA2410.seam?cid=2652103&flashId=129654">忘记密码</a>
+    	    </nav>
+    	   
+    	</form>
+               <!-- 登录栏-->
+        <br>
+        <br>
+
+    	<li style="color: blue"><b><i>注册</i></b></li><br></li>
+
+    	<form>
+
+    		<label for="Email">Email</label><br>
+    		<input type="text" name="Email" id="Email" value="123456@bigfis.com"><br>
+    		<br>
+
+    		<input type="radio" name="radiobutton" value="radiobutton" checked="checked">  男
+    		<input type="radio" name="radiobutton" value="radiobutton" checked="checked">  女
+    		<br><br>
+    		<!--性别-->
+
+    		<label for="password">Password</label><br>
+    		<input type="password" name="password"><br>
+    		<br>
+
+    		<label for="Repeat password">Repeat Password</label><br>
+    		<input type="password" name="password"><br>
+    	
+    		<p>By creating an account you to our</p>
+    		<p><a href="https://www.nikkei.com/lounge/help/index.html">Terms & Privacy</a></p>
+    		<!--密码区-->
+
+            主要交易品种：
+    		<input type="checkbox" name="checkbox" value="checkbox" checked="checked"/>商品
+    		<input type="checkbox" name="checkbox1" value="checkbox"/>基金
+    		<input type="checkbox" name="checkbox2" value="checkbox"/>期货
+    		<input type="checkbox" name="checkbox3" value="checkbox"/>加密货币
+    		<input type="checkbox" name="checkbox4" value="checkbox"/>股指
+    		<br><br>
+    		<!--交易品种区域-->
+
+    		<form action="index.htm method="post" enctype="multipart/form-data" name="form1">上传身份证照片：
+    			
+    			<input type="file" name="file"size="30" maxlength="32">
+
+    		</form>
+            <br>
+
+    		<input type="submit" name="submit">
+    		
+    	</form><br><br>
+	           <!--注册栏-->
+
+
+	    <li style="color: blue"><b><i>建议</i></b></li><br></li>
+
+	    <form name="form1" method="post" action="index.htm">
+	    	希望增加那类信息：<br>
+	    
+            <input type="radio" name="mofe" value="1" checked="checked"> 投资信息<br>
+	    	<input type="radio" name="mofe" value="2"> 重要新闻<br>
+	    	<input type="radio" name="mofe" value="3"> 价格预测<br>
+	    	<input type="radio" name="mofe" value="4"> 市场分析<br>
+
+	    </form>
+	    <br>   <!--建议选择框-->
+
+
+
+	    <form action="index.htm" method="post" name="form1">
+	    	其他建议：<br>
+	    	<textarea name="textarea" cols="35" rows="6"></textarea>
+
+	    </form>
+	    <br>
+	    <!--建议留言框-->
+
+
+    	<li style="color: red"><b><i>注意</b></i></li>
+
+    		<p>
+    			BIG FISH Finance网站免费提供股票、基金、债券、外汇等行情数据以及其他<br>资料均来自相关合作方，仅作为用户获取信息之目的，并不构成投资建议。
+
+    	</p>
+
+     </nav>
+           <!--右侧栏-->
+
+
+	</div>
+
+
+
+
+
+
+	
+
+
+
+
+
+
+</body>
+</html>

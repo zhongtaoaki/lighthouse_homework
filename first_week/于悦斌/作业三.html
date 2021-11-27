@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+    <!-- 左边部分 -->
+<div class="rg_left">
+    <p>新用户注册</p>
+    <p>USER REGISTER</p>
+</div>
+
+
+<!-- 中间部分 -->
+<div class="rg_center">
+    <!-- 定义表单 form -->
+    <form action="#" method="post">
+        <!-- 定义一个表格 -->
+        <table>
+            <!-- 表格第一行有两个单元格：用户名 + 输入用户名信息区域 -->
+            <tr>
+                <!-- 定义一个标签：用户名 -->
+                <td class="td_left"><label for="username">用户名</label></td>
+                <!-- 定义输入用户名信息的框框 -->
+                <td class="td_right"><input type="text" name="username" id="username" placeholder="请输入用户名"></td>
+            </tr>
+ 
+            <!-- 表格第二行有两个单元格：密码 + 输入密码区域 -->
+            <tr>
+                <!-- 定义一个标签：密码 -->
+                <td class="td_left"><label for="password">密码</label></td>
+                <!-- 定义输入密码的框框 -->
+                <td class="td_right"><input type="password" name="password" id="password" placeholder="请输入密码"></td>
+            </tr>
+ 
+            <!-- 表格第三行有两个单元格：邮箱 + 输入邮箱区域 -->
+            <tr>
+                <!-- 定义一个标签：邮箱 -->
+                <td class="td_left"><label for="email">Email</label></td>
+                <!-- 定义输入邮箱的框框 -->
+                <td class="td_right"><input type="email" name="email" id="email" placeholder="请输入邮箱"></td>
+            </tr>
+ 
+            <!-- 表格第四行有两个单元格：姓名 + 输入姓名区域 -->
+            <tr>
+                <!-- 定义一个标签：姓名 -->
+                <td class="td_left"><label for="name">姓名</label></td>
+                <!-- 定义输入姓名的框框 -->
+                <td class="td_right"><input type="text" name="name" id="name" placeholder="请输入姓名"></td>
+            </tr>
+ 
+            <!-- 表格第五行有两个单元格：手机号 + 输入手机号码区域 -->
+            <tr>
+                <!-- 定义一个标签：手机号 -->
+                <td class="td_left"><label for="tel">手机号</label></td>
+                <!-- 定义输入手机号码的框框 -->
+                <td class="td_right"><input type="text" name="tel" id="tel" placeholder="请输入手机号"></td>
+            </tr>
+ 
+            <!-- 表格第六行有两个单元格：性别 + 选择性别的按钮 -->
+            <tr>
+                <!-- 定义一个标签：性别 -->
+                <td class="td_left"><label>性别</label></td>
+                <!-- 定义两个选择按钮：一个按钮"男"，一个按钮"女" -->
+                <td class="td_right">
+                    <input type="radio" name="gender" value="male"> 男
+                    <input type="radio" name="gender" value="female"> 女
+                </td>
+            </tr>
+ 
+            <!-- 表格第七行有两个单元格：出生日期 + 选择出生日期控件 -->
+            <tr>
+                <!-- 定义一个标签：出生日期 -->
+                <td class="td_left"><label for="birthday">出生日期</label></td>
+                <!-- 定义选择出生日期控件 -->
+                <td class="td_right"><input type="date" name="birthday" id="birthday"></td>
+            </tr>
+ 
+            <!-- 表格第八行有两个单元格：验证码 + （输入验证码区域 + 验证码图片） -->
+            <tr>
+                <!-- 定义一个标签：验证码 -->
+                <td class="td_left"><label for="checkcode" >验证码</label></td>
+                <!-- 定义输入验证码的框框 -->
+                <td class="td_right"><input type="text" name="checkcode" id="checkcode" placeholder="请输入验证码">
+                    <!-- 验证码图片 -->
+                    <img id="img_check" src="img/verify_code.jpg">
+                </td>
+            </tr>
+ 
+            <!-- 表格第八行有一个单元格：注册按钮 -->
+            <tr>
+                <!-- 定义一个提交按钮 -->
+                <td colspan="2" align="center"><input type="submit" id="btn_sub" value="注册"></td>
+            </tr>
+        </table>
+    </form>
+</div>
+
+
+<!-- 右边部分 -->
+<div class="rg_right ">
+    <p>已有账号？<a href="#">立即登录</a></p>
+</div>
+
+</body>
+</html>
