@@ -25,3 +25,10 @@
   * [1](first_week\冯\FJ1121HW1.html)
   * [2](first_week\冯\FJ1121HW2.html)
   * [3](first_week\冯\FJ1121HW3.html)
+
+## 第二周
+* 孙
+  * [1](second_week\sun\hw4_ling.html)
+  * [2](second_week\sun\hw4.html)
+  * [3](second_week\sun\hw5.html)
+  * [4](second_week\sun\hw6.html)
