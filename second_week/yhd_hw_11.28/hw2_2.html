@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>真的要登录这个奇怪的网页吗</title>
+  <style>
+    #round1 {
+          background: rgba(154, 200, 226, 0.5);
+          width: 400px;
+          height: 300px;
+          border: 5px solid #576690;
+          border-radius: 12px;
+          padding: 10px 40px;
+          margin: auto;
+    }
+
+    img {
+      float: right;
+    }
+
+    .input {
+      width: 95%;
+      padding: 8px;
+      border: 2px groove #576690;
+      border-radius: 8px;
+    }
+
+    #submit {
+      margin: 10px 0px;
+      width: 50%;
+      height: 30px;
+      background: rgba(102, 204, 255, 1.0);
+      border-radius: 8px;
+    }
+
+    #round3 {
+      float: right;
+    }
+    #para1 {
+      color: orangered;
+    }
+
+    h2 {
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+<div id="round1">
+<h2>Login</h2>
+<div><img src="https://i0.hdslb.com/bfs/album/958822aa3126e450dfe5f4542c09a9b048cbd3f9.gif@.webp" alt="hutao" style="width: 80px;height: 80px;"></div>
+<p id="para1">请输入您的用户名和密码：<br>
+密码区分大小写</p>
+<div id="round2">
+<form action="/action_page.php">
+  <label for="username">Username:</label><br>
+  <input type="text" id="username" class="input" name="username" placeholder="您的用户名"><br>
+  <label for="pwd">Password:</label><br>
+  <input type="password" id="pwd" class="input" name="pwd" placeholder="您的密码"><br>
+  <input type="submit" id="submit" value="登录">
+  <div id="round3">
+  <a href="https://i0.hdslb.com/bfs/album/fad2cee0170bcec22dbc345f566fe16479840f19.jpg@.webp" target="_blank">忘记密码？</a>
+</div>
+</form>
+</div>
+
+<br>
+</div>
+
+</body>
+</html>

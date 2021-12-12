@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Create your 没什么卵用的 account!</title>
+  <style>
+    #round1 {
+      background: rgba(154, 200, 226, 0.5);
+      width: 400px;
+      border: 5px solid #576690;
+      border-radius: 12px;
+      padding: 10px 40px;
+      margin: auto;
+    }
+    #round2 {
+      width: 400px;
+      text-align: left;
+      margin: auto;
+    }
+    #submit {
+      background: rgba(102, 204, 255, 1.0);
+      border-radius: 8px;
+    }
+    .input {
+      width: 95%;
+      padding: 8px;
+      border: 2px groove #576690;
+      border-radius: 8px;
+    }
+    .button {
+      margin: 10px 0px;
+      width: 50%;
+      height: 30px;
+      background: rgba(102, 204, 255, 1.0);
+      border-radius: 8px;
+    }
+    h2 {
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+<div id="round1">
+
+<h2>新用户注册</h2>
+
+<p>填写以下内容后，点击
+<input type="submit" id="submit" value="提交">按钮来注册<br>
+标记 <b>*</b> 的项目为必填</p>
+<div id="round2"><br>
+<form action="/action_page.php">
+    <legend>你的账户信息：</legend>
+    <label for="username">*您的昵称：</label><br>
+    <input type="text" class="input" id="username" name="username" placeholder="admin"><br><br>
+    <label for="pwd">*您的密码：</label><br>
+    <input type="password" class="input" id="pwd" name="pwd" placeholder="********"><br><br>
+    <label for="pwd">*确认您的密码：</label><br>
+    <input type="password" class="input" id="pwd" name="pwd" placeholder="********"><br><br>
+    <label for="email">*邮箱：</label><br>
+    <input type="email" class="input" id="email" name="email"><br><br>
+    <label for="name">姓名：</label><br>
+    <input type="text" class="input" id="fname" name="name"><br><br>
+    <label for="date">您的出生日期：</label><br>
+    <input type="date" class="input" id="date" name="date"><br><br>
+    <label for="myfile">上传头像：</label>
+    <input type="file" id="myfile" name="myfile"><br><br><br>
+    <p><input type="checkbox" name="agree">注册即代表您同意<a href=""></a>《用户协议》<br>
+    	<button type="button" class="button"onclick="alert('八百条霸王条款你怕不怕')">点击查看</button></p><br><br>
+    <input type="submit" class="button"value="提交注册">
+</form>
+<br>
+</div>
+
+<h3>已经有账户了？<a href="hw2_2.html">点此登录</a></h3>
+</div>
+</body>
+</html>
